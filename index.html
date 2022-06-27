@@ -9,8 +9,8 @@
   </head>
   <body>
     <nav class="navbar">
-      <a href="">About me</a>
-      <a href="">Projects</a>
+      <a href="#about">About me</a>
+      <a href="#project">Projects</a>
       <a href="">Contact</a>
     </nav>
 
@@ -19,7 +19,7 @@
       <h1>I'm a <span class="auto-type"></span></h1>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-title">
         <h2>About me</h2>
       </div>
@@ -60,18 +60,58 @@
             href="https://www.linkedin.com/in/ryan-indrajaya-68931b192/details/certifications/"
             target="_blank"
             class="button"
-          >See ceritificate</a>
+            >See ceritificate</a
+          >
         </div>
       </div>
     </section>
 
-    <section class="project">
-      <h2>My projects</h2>
+    <section class="project" id="project">
+      <div class="project-title">
+        <h2>My projects</h2>
+      </div>
+      <div class="project-item">
+        <div class="card">
+          <div class="content">
+            <h2>React</h2>
+            <h3>Todo App</h3>
+            <p>
+              A todo web app that uses react.js using Hooks(useState, setState).
+            </p>
+            <a class="button" href="#">Live site</a>
+            <a class="button" href="#">Repository</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2>PHP</h2>
+            <h3>Blanjoo</h3>
+            <p>
+              E-commerce web application using PHP, mySQL server and Bootstrap 5.
+            </p>
+            <a class="button" href="#">Live site</a>
+            <a class="button" href="#">Repository</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2>React</h2>
+            <h3>Campflix</h3>
+            <p>
+              Movie web app using react.js with API fetch using axios and
+              firebase integration.
+            </p>
+            <a class="button" href="#">Live site</a>
+            <a class="button" href="#">Repository</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
