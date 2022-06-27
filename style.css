@@ -113,6 +113,21 @@ nav a:hover {
   transition: box-shadow 0.3s;
 }
 
+.button-disabled {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.5;
+  padding: 15px 40px;
+  background: rgba(14, 122, 254);
+  font-size: 18px;
+  cursor: default;
+  border-radius: 7px;
+  color: #f5f5f7;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: box-shadow 0.3s;
+}
+
 .button:hover {
   box-shadow: rgba(0, 0, 0, 0) 0px 1px 4px;
 }
@@ -183,6 +198,7 @@ nav a:hover {
 
 .content h3 {
   font-size: 1.4rem;
+  letter-spacing: 2px;
   z-index: 1;
 }
 
