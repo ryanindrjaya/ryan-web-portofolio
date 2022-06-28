@@ -346,7 +346,7 @@ nav a:hover {
   }
   
   .about-title {
-    width: 10%;
+    width: 20%;
     font-size: 20px;
     padding: 0 20px;
   }
@@ -361,7 +361,7 @@ nav a:hover {
   }
 
   .about-pages {
-    width: 90%;
+    width: 80%;
   }
 
   .about-pages div {
