@@ -256,7 +256,7 @@ nav a:hover {
 
 .contact-link {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly
 }
 
 .button-icon {
